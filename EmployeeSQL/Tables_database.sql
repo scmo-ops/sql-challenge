@@ -1,3 +1,14 @@
+-- Drop the tales if already there
+
+DROP TABLE IF EXISTS departments;
+DROP TABLE IF EXISTS dept_emp;
+DROP TABLE IF EXISTS dept_manager;
+DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS salaries;
+DROP TABLE IF EXISTS titles;
+
+-- Creating the tables
+
 CREATE TABLE departments(
     dept_no VARCHAR(30),
     dept_name VARCHAR(30));
